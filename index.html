@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Text Plot for Explainable Text Summarization</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Visualization</title>
+    <h1>Let's Understand Your Text Summarization Model</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="filter-section">
+        <label for="filter">Select Top N Sentences:</label>
+        <select id="filter">
+            <option value="all">All Sentences</option>
+            <option value="2">Top 2</option>
+            <option value="3">Top 3</option>
+            <option value="4">Top 4</option>
+            <option value="5">Top 5</option>
+            <option value="6">Top 6</option>
+            <option value="7">Top 7</option>
+            <option value="8">Top 8</option>
+            <option value="9">Top 9</option>
+            <option value="10">Top 10</option>
+            <option value="15">Top 15</option>
+            <option value="20">Top 20</option>
+        </select>
+    </div>
+
+    <form id="text-form">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title"><br>
+
+        <label for="summary">Summary:</label><br>
+        <textarea id="summary" rows="2" cols="50"></textarea><br>
+
+        <label for="input-text">Input Sentences (Enclosed in quotation and Separated by commas):</label><br>
+        <textarea id="input-text" rows="10" cols="50"></textarea><br>
+
+        <label for="attentions">Weights (Comma-separated):</label><br>
+        <input type="text" id="attentions"><br>
+
+        <button type="button" id="generate-btn">Generate Text Plot</button>
+    </form>
+
+    <script src="your_script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#filter-section {
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+textarea, input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tooltip styling */
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: none; /* Initially hidden */
+    z-index: 1000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none; /* Prevent tooltip from interfering with hover events */
+    white-space: nowrap; /* Keep tooltip text on one line */
+}
+
+/* Flexbox to display sentences inline without spaces */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows sentences to wrap on smaller screens */
+}
+
+/* Style for each sentence block */
+span.sentence {
+    display: inline; /* Ensure sentences are inline */
+    background-color: lightblue;
+    padding: 5px;
+    margin: 0 5px 5px 0; /* Ensure no space between spans */
+    cursor: pointer;
+    font-size: 14px;
+}
