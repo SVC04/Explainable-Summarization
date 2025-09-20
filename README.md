@@ -2,6 +2,7 @@
 
 This is a GitHub Pages project showcasing explainable text summarization. The tool is introduced in the paper “**Let’s Agree to Disagree”: Investigating the
 Disagreement Problem in Explainable AI for Text Summarization"**.
+The arxiv link of the paper is here: [https://arxiv.org/abs/2410.18560].
 
 View the live site here and understand the summarization model: [Explainable Summarization](https://svc04.github.io/Explainable-Summarization/)
 
